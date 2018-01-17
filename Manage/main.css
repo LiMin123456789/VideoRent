@@ -1,0 +1,80 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*公用*/
+.comWidth{width:1000px; margin-left:auto; margin-right:auto;}
+.leftArea{float:left;}
+.rightArea{float:right;}
+.hide{display:none;}
+.show{display:block;}
+a.one:link {color: #ff0000;font-size:25px;}
+a.one:hover {color: #F00  ;}
+a.one:active { color: #FFFFFF;}
+
+
+/*底部*/
+.footer{text-align:center; background-color:#D4D4D4; line-height:24px; padding:30px 0;}
+.footer i{font-style:normal; margin:0 5px; }
+.footer a{color:#000;}
+.footer a:hover{color:#F60;}
+.web{padding-top:25px;}
+.web img{margin:0 12px;}
+.hr_25{height:25px;}
+.hr_45{height:45px;}
+.hr_7{height:7px; overflow:hidden;}
+.hr_15{height:15px; overflow:hidden;}
+/*产品分类*/
+.products .leftArea{width:185px;}
+.products .rightArea{width:810px;}
+.products .banner_bar{float:none;}
+.products .item{width:25%; *width:24.9%; margin-bottom:10px;}
+/*产品分类导航*/
+.leftNav{border:#D7D7D7 solid 1px;height:200px;}
+.nav_title{height:34px; line-height:34px; font-size:14px; border-bottom:#D7D7D7 solid 1px;  text-align:center;}
+.nav_cont{padding:0 18px 0px; margin-bottom:1px;}
+.nav_cont h3{font-size:12px; height:30px; line-height:30px;}
+.navCont_list{line-height:25px;}
+.navCont_list li{float:left; width:50%;}
+.vertical li{width:auto; float:none; padding-left:8px;}
+.vertical .nav_title,
+.vertical .nav_cont h3{font-family:"Microsoft YaHei", "微软雅黑"; font-size:14px;}
+/*标题*/
+.products_title{height:34px; border-bottom:#CCCCCC solid 2px;}
+.products_title h3{width:180px; border-bottom:#096DBA solid 2px; height:34px; line-height:34px; text-indent:9px; margin-bottom:-2px; position:relative;}
+/*表格*/
+table.dataintable {
+  margin-top:15px;
+  border-collapse:collapse;
+  border:1px solid #aaa;
+  width:100%;
+}
+table.dataintable th {
+  vertical-align:baseline;
+  padding:5px 15px 5px 6px;
+  background-color:#3F3F3F;
+  border:1px solid #3F3F3F;
+  text-align:left;
+  color:#fff;
+}
+table.dataintable td {
+  vertical-align:text-top;
+  padding:6px 15px 6px 6px;
+  border:1px solid #aaa;
+}
+table.dataintable tr:nth-child(odd) {
+  background-color:#F5F5F5;
+}
+table.dataintable tr:nth-child(even) {
+  background-color:#fff;
+}
+/*分页*/
+
+
+
+
+
+
+
+
+
+
