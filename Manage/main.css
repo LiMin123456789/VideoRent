@@ -1,19 +1,40 @@
 ﻿@charset "utf-8";
 /* CSS Document */
+/*头部*/
+#header{width: 100%;height: 80px;margin: auto;position: relative;background-color: #3fa2d4}
+#top{height: 70px;width: 100%;}
+#top-block-left{float: left;margin: 25px}
+#top-block-left p{padding: 3px 0 0 10px;font-size: 30px;font-weight: bold;color: #DDD;text-shadow: 0 1px 1px #111;float: right}
+#top-toolbox{float: right;margin: 25px}
+#top-toolbox li{float: left}
+#top-toolbox a{background-position:left;text-decoration: none;font-size: 30px;color: #DDD;height: 60px;font-weight: bold;padding-left: 24px;margin-left: 10px}
+#top-toolbox a:hover{cursor: pointer}
+
+/*菜单栏*/
+#menu{background-color:#3fa2d4; width: 100%;height: 40px;}
+ul.topnav{list-style: none;float: left;width: 100%;font: 0.8em;background-color:#3fa2d4;}
+ul.topnav li{float: left;margin: auto; padding: 0 15px 0 0;position: relative;top:-20px;}
+ul.topnav li.right{float: left;}
+ul.topnav li a{line-height: 2.6em;padding: 0 6px 0 28px;color: #EEE;font-size: 1.2em;display: block;text-decoration: none;float: left;background-position: 6px 12px;background-repeat: no-repeat;font-weight: bold;text-shadow: 0 1px 1px #111;}
+form {float: left;background-color: #FFF;padding: 1px}
+.search-input-button{border: 0;background-image: url("../img/search_ico.png");width: 29px;height: 29px;float: left;cursor: pointer;}
+.search-input-text{border: 0;float: left;height: 25px;line-height: 25px;outline: none;width: 350px;}
+.search-box{position: absolute;top: 27px;right: 240px;}
+
 
 /*公用*/
 .comWidth{width:1000px; margin-left:auto; margin-right:auto;}
 .leftArea{float:left;}
-.rightArea{float:right;}
+.rightArea{float:right;color:#DCDCDC}
 .hide{display:none;}
 .show{display:block;}
-a.one:link {color: #ff0000;font-size:25px;}
+a.one:link {color:#3F3F3F;font-size:25px;}
 a.one:hover {color: #F00  ;}
-a.one:active { color: #FFFFFF;}
+a.one:active { color: #f3f607;}
 
 
 /*底部*/
-.footer{text-align:center; background-color:#D4D4D4; line-height:24px; padding:30px 0;}
+.footer{text-align:center; background-color:#3fa2d4; line-height:24px; padding:30px 0;}
 .footer i{font-style:normal; margin:0 5px; }
 .footer a{color:#000;}
 .footer a:hover{color:#F60;}
@@ -67,10 +88,23 @@ table.dataintable tr:nth-child(odd) {
 table.dataintable tr:nth-child(even) {
   background-color:#fff;
 }
-/*分页*/
 
 
 
+
+
+/*登陆*/
+.headerBar{text-align: center;background-color: #3fa2d4;line-height: 24px;padding: 50px 0;}
+.login_logo .comWidth{width: 460px}
+.welcome_title{font:30px/85px "Mircosoft YaHei","微软雅黑";color: #101010;float:none;padding-left:24px;}
+.loginBox{width:458px; border:#999 solid 1px; margin:10px auto; position:relative;}
+.login_cont{padding: 15px 76px;}
+.l_tit{color:#666;line-height: 20px;}
+.login_input{border: #999 solid 1px;height: 32px;line-height: 32px\9;text-indent: 5px;width: 100%;}
+.user_icon{background: url(../img/login/user_icon.jpg) right center no-repeat;}
+.mb_10{margin-bottom: 10px;}
+.login_btn{width:309px; height:36px; background:url(../img/login/login_btn.jpg) left top no-repeat;}
+.login_btn:hover{cursor: pointer;}
 
 
 
